@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Dhani Yudistira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Blog Dhani Yudistira</h1>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#artikel">Artikel</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="profil" class="container">
+        <h2>Profil Saya</h2>
+        <img src="dy.jpg" alt="Foto Dhani Yudistira" class="profile-img">
+        <div class="bio">
+            <p><strong>Nama:</strong> Dhani Yudistira</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Yogyakarta, 9 Desember 2004</p>
+            <p><strong>Jenis Kelamin:</strong> Laki-laki</p>
+            <p><strong>Pendidikan:</strong> Mahasiswa Ilmu Perpustakaan, UIN Sunan Kalijaga</p>
+            <p><strong>Hobi:</strong> Membaca, Menulis, Coding</p>
+        </div>
+    </section>
+
+    <section id="artikel" class="container">
+        <h2>Artikel Terbaru</h2>
+        <article>
+            <h3>Dhani 1</h3>
+            <p>it's just something about me</p>
+            <a href="https://yudistirais.blogspot.com/2025/02/dhani-yudistira.html?m=1">Baca Selengkapnya</a>
+        </article>
+        <article>
+            <h3>Dhani 2</h3>
+            <p>another thing about me</p>
+            <a href="https://yudistirais.blogspot.com/2025/02/me.html?m=1">Baca Selengkapnya</a>
+        </article>
+    </section>
+
+    <section id="kontak" class="container">
+        <h2>Hubungi Saya</h2>
+        <form id="contactForm" action="https://formspree.io/f/mzzdnzwo" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+    
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Dhani Yudistira. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
